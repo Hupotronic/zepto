@@ -8,6 +8,21 @@ and documentation.
 
 Zepto.js is licensed under the terms of the MIT License.
 
+## Building with Node.js and grunt
+
+In this version, it is possible to build Zepto with Node.js and grunt. To do so, do the following:
+
+1. Install [Node.js](http://nodejs.org)
+2. Install grunt with `npm install -g grunt`
+3. Navigate to your zepto directory
+4. Build with `grunt`
+
+You can also customize the modules Zepto is build with by running for example `grunt build:-fx:data:selector` - this will remove the "fx" module and add the "data" and "selector" modules to the default build.
+
+You can also do a "minimal" build with `grunt build:min:zepto:event`. This would build Zepto only with the "zepto" and "event" modules.
+
+You can list available modules with `grunt modules`. Automated testing is not available yet.
+
 ## Building
 
 [![Build Status](https://secure.travis-ci.org/madrobby/zepto.png?branch=master)](http://travis-ci.org/madrobby/zepto)
