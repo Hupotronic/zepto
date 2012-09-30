@@ -1,9 +1,10 @@
+/*
 //     Zepto.js
 //     (c) 2010-2012 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
 
 // The following code is heavily inspired by jQuery's $.fn.data()
-
+*/
 ;(function($) {
   var data = {}, dataAttr = $.fn.data, camelize = $.zepto.camelize,
     exp = $.expando = 'Zepto' + (+new Date())

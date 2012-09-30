@@ -1,7 +1,8 @@
+/*
 //     Zepto.js
 //     (c) 2010-2012 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
-
+*/
 ;(function($, undefined){
   var prefix = '', eventPrefix, endEventName, endAnimationName,
     vendors = { Webkit: 'webkit', Moz: '', O: 'o', ms: 'MS' },
